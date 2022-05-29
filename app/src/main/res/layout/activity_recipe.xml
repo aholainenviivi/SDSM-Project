@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    tools:context=".RecipeActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recipe_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_title"
+            android:textSize="24sp"
+            android:padding="12dp"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:layout_constraintVertical_bias="0" />
+
+        <TextView
+            android:id="@+id/recipe_batter_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_batter_title"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <ListView
+            android:id="@+id/recipe_batter_listview"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:paddingBottom="24dp" />
+
+        <TextView
+            android:id="@+id/recipe_icing_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_icing_title"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <ListView
+            android:id="@+id/recipe_icing_listview"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:paddingBottom="24dp" />
+
+        <TextView
+            android:id="@+id/recipe_instructions_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_instructions_title"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/recipe_instructions_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_instructions_text"
+            android:padding="12dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

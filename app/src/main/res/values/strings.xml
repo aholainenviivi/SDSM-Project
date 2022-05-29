@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">My Course Project</string>
+
+    <!--Strings for MainActivity-->
+    <string name="main_button_text">Try your luck</string>
+
+    <!--Strings for AppLauncher-->
+    <string name="launcher_title">Some of my favorite things on the internet:</string>
+    <string name="launcher_button_1">Children falling down</string>
+    <string name="launcher_button_2">CATS</string>
+    <string name="launcher_button_3">Rick rolls</string>
+    <string name="launcher_rick_rolls_toast">Why would you click that?</string>
+
+    <!--Strings for RecipeActivity-->
+    <string name="recipe_title">My favorite mokkapala recipe</string>
+    <string name="recipe_batter_title">Batter</string>
+    <string-array name="recipe_ingredients_batter">
+        <item>eggs</item>
+        <item>sugar</item>
+        <item>liquid margarine</item>
+        <item>milk</item>
+        <item>vanilla sugar</item>
+        <item>baking powder</item>
+        <item>cocoa powder</item>
+        <item>flour</item>
+    </string-array>
+    <string-array name="recipe_amounts_batter">
+        <item>4</item>
+        <item>3 dl</item>
+        <item>150 g</item>
+        <item>2 dl</item>
+        <item>2 tsp</item>
+        <item>3 tsp</item>
+        <item>3 tbsp</item>
+        <item>5 dl</item>
+    </string-array>
+    <string name="recipe_icing_title">Icing</string>
+    <string-array name="recipe_ingredients_icing">
+        <item>powdered sugar</item>
+        <item>cocoa powder</item>
+        <item>vanilla sugar</item>
+        <item>liquid margarine</item>
+        <item>coffee</item>
+    </string-array>
+    <string-array name="recipe_amounts_icing">
+        <item>227 g</item>
+        <item>2 tbsp</item>
+        <item>2 tsp</item>
+        <item>50 g</item>
+        <item>4-ish tbsp</item>
+    </string-array>
+    <string name="recipe_instructions_title">Instructions</string>
+    <string name="recipe_instructions_text">I\'m putting too much effort into this app already so
+        instructions is where I draw the line. No I won\'t type the instructions here, but the recipe
+        is actually really good and you should still try it!</string>
+
+    <!--Strings for PictureShowActivity-->
+    <string name="gallery_title">Pictures from my camera roll without context</string>
+
+</resources>
